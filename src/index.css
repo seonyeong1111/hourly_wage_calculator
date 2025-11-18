@@ -1,0 +1,106 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #e0e7ff, #ffe4e6);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.card-subtitle {
+  color: #4338ca;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  border: 2px solid #c7d2fe;
+  border-radius: 0.75rem;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  background: #6366f1;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.button:hover {
+  background: #4f46e5;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.calendar-day {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.calendar-day:hover {
+  background-color: #e0e7ff;
+}
+
+.calendar-selected {
+  background-color: #6366f1;
+  color: white;
+  font-weight: bold;
+}
+
+.calendar-work {
+  background-color: #d1fae5;
+  color: #065f46;
+  font-weight: bold;
+}
+
+.results {
+  background-color: #f0f5ff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.results-total {
+  background: linear-gradient(to right, #6366f1, #8b5cf6);
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
